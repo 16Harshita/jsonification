@@ -4,7 +4,7 @@ pipeline {
     stages {
         stage('Clone the Git') {
             steps {
-                git 'https://github.com/Pratikshadukare/jsonification.git'
+                git 'https://github.com/16Harshita/jsonification.git'
             }
         }
         stage('Build') {
